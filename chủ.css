@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://st2.depositphotos.com/1177973/7022/i/450/depositphotos_70226169-stock-photo-dark-starry-sky-background.jpg") no-repeat center/cover;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #DC143C;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: red;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.movie-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie-item {
+    width: 250px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.movie-item h3 {
+    margin-top: 10px;
+}
+
+.movie-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
